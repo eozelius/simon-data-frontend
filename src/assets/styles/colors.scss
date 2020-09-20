@@ -1,0 +1,33 @@
+// default color scheme
+$color-dark-blue: #1F3946;
+$color-lite-blue:  #89B3BE;
+$color-lite-blue-gray: #e6eef0;
+$color-dark-aqua: #3B5E62;
+$color-lite-aqua: #9BBEA2;
+$color-dark-gray: #393d3f;
+$color-lite-gray: #C7C7C7;
+
+// solarized color scheme
+$color-solarized-dark-blue: #073642;
+$color-solarized-blue-text: #268bd2;
+
+$color-white: #fff;
+$color-danger: rgb(179, 51, 51);
+
+// backgrounds
+$color-background-gray: #ededed;
+
+.danger {
+  color: $color-danger;
+}
+
+// Email Themes
+
+// Rhythm
+$color-deep-purple: #4d2278;
+$color-rhythm-green: #CAE7B9;
+$color-rhythm-gold: #f3de8a;
+$color-rhythm-red: #EB9486;
+$color-rhythm-purple: #7E7F9A;
+$color-rhythm-gray: #97A7B3;
+$color-rhythm-dark-gray: #393d3f;

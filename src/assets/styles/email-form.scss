@@ -1,0 +1,6 @@
+@import './colors.scss';
+@import './mixins.scss';
+
+.email-form-container {
+  @include widget-box;
+}

@@ -1,0 +1,30 @@
+.email-campaign-container {
+  width: 90%;
+  margin: 5% auto 5%;
+  padding: 1% 4% 2%;
+}
+
+.send-email-button {
+  margin: 10% auto 5%;
+  display: block;
+}
+
+.email-form-container,
+.recipients-container {
+  width: 94%
+}
+
+/* Desktop */
+@media screen and (min-width: 420px) {
+  .email-campaign-form-container {
+    display: flex;
+  }
+
+  .email-form-container {
+    width: 50%
+  }
+
+  .recipients-container {
+    width: 40%;
+  }
+}
