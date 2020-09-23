@@ -110,7 +110,8 @@ class EmailCampaign extends React.Component {
             recipients={this.state.recipients}
             onAddRecipient={this.handleAddRecipient}
             onEditRecipient={this.handleEditRecipient}
-            onDeleteRecipient={this.handleDeleteRecipient} />
+            onDeleteRecipient={this.handleDeleteRecipient}
+            data-test="recipients-component" />
 
           <EmailCampaignForm 
             name={this.state.campaign.name}
@@ -119,7 +120,8 @@ class EmailCampaign extends React.Component {
             description={this.state.campaign.description}
             discountRate={this.state.campaign.discountRate}
             discountCode={this.state.campaign.discountCode}
-            onCampaignInput={this.handleCampaignInput} />
+            onCampaignInput={this.handleCampaignInput}
+            data-test="email-campaign-form-component" />
         </div>
 
         <div className="preview-container">
@@ -130,12 +132,14 @@ class EmailCampaign extends React.Component {
             description={this.state.campaign.description}
             discountRate={this.state.campaign.discountRate}
             discountCode={this.state.campaign.discountCode}
-            sender={this.state.campaign.sender} />
+            sender={this.state.campaign.sender}
+            data-test="email-campaign-preview-component" />
           {/* <EmailCampaignMobilePreview /> */}
         </div>
 
         {/* Send Emails to Customers */}
-        <button className="send-email-button" onClick={this.sendEmail}>Send Email</button>
+        <button className="send-email-button" onClick={this.sendEmail}
+        data-test="send-emails-btn">Send Email</button>
       </div>
     )
   }
